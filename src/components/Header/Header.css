@@ -1,0 +1,73 @@
+.body{
+    background-image: url(../../images/header-bg.jpg);
+    height: 600px;
+}
+.body img{
+    
+
+}
+.header{
+    display: flex;
+    text-align: start !important;
+    
+}
+.header-text{
+    margin-top: 190px;
+    width: 100%;
+}
+.description-text{
+    color: rgb(93, 90, 90);
+}
+.header-image { 
+   width: 94%;
+   margin-left:50px ;
+   margin-top: 68px !important;
+}
+.text-color{
+    color: rgb(247 80 35)
+}
+.world{
+    color: green;
+}
+.full-stack{
+    color:rgb(93, 90, 90);
+    
+
+}
+.all-btn{
+    margin-top: 50px;
+}
+.about-btn{
+    
+    border: 0px;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(247 80 35) ;
+    height: 50Px;
+    width: 150px;
+    border-radius: 30px;
+}
+.gmail-btn{
+    margin-left: 10px;
+    border: 0px;
+    height: 35px;
+    width: 35px;
+   
+}
+
+.linkedin-btn{
+    
+
+    margin-left: 100px;
+    border: 0px;
+    height: 35px;
+    width: 35px;
+
+}
+.github-btn{
+    margin-left: 10px;
+    border: 0px;
+    height: 35px;
+    width: 35px;
+
+}

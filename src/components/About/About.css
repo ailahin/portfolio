@@ -1,0 +1,64 @@
+.about-container{
+   background-image: url(../../images/dream-bg.png);
+   background-repeat: no-repeat;
+   background-position-x: right;
+
+
+    
+}
+
+
+.text-special{
+    color: rgb(72, 70, 70);
+}
+.title-about{
+   margin-top: 50px;
+   padding-top: 30px;
+}
+.about-me{
+    margin-top: 30px;
+    margin-bottom: 10px;
+   text-align: justify;
+   
+}
+.education{
+    display: flex;
+}
+
+.education-details{
+    text-align:start;
+    text-align: justify;
+    
+    
+}
+.title-edu{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+}
+.uni-name{
+    color:rgb(247 80 35);
+}
+.activities{
+    text-align:start;
+    text-align: justify;
+}
+.last-part{
+   
+    
+
+}
+.hire-me-btn{
+    border: 0px;
+    color: white !important;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: rgb(247 80 35) ;
+    height: 50Px;
+    width: 150px;
+    border-radius: 30px;
+    margin-bottom: 200px;
+    margin-top: 10px;
+    
+
+}
