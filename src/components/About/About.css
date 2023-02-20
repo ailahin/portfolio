@@ -1,10 +1,19 @@
+.bg-img{
+    background-image: url(../../images/ab-5.jpg);
+    background-size: cover;
+    padding-top: 20px;
+}
 .about-container{
    background-image: url(../../images/dream-bg.png);
    background-repeat: no-repeat;
    background-position-x: right;
+   
+}
+.edu-volu-details{
+    background-image: url(../../images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position-y: bottom;
 
-
-    
 }
 
 
@@ -12,7 +21,7 @@
     color: rgb(72, 70, 70);
 }
 .title-about{
-   margin-top: 50px;
+   margin-top: 20px;
    padding-top: 30px;
 }
 .about-me{
@@ -57,7 +66,7 @@
     height: 50Px;
     width: 150px;
     border-radius: 30px;
-    margin-bottom: 200px;
+    margin-bottom: 100px;
     margin-top: 10px;
     
 

@@ -1,0 +1,95 @@
+.form-group {
+    margin-bottom: 20px;
+  }
+
+  .contact-me{
+    color: rgb(247 80 35) ;
+    margin-bottom: 20px;
+
+  }
+  .text{
+    color: black;
+    font-size: 3rem;
+    margin-bottom: 70px;
+  }
+
+  .contact-form{
+    width: 40%;
+  }
+  .addresss-area{
+    width: 50%;
+    padding: 10px;
+    
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input,
+  textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+
+  textarea {
+    display: block;
+    height: 200px;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  button[type="submit"] {
+
+    border: 0px;
+    color: white !important;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: rgb(247 80 35) ;
+    height: 50Px;
+    width: 150px;
+    border-radius: 30px;
+    margin-bottom: 100px;
+    margin-top: 10px;
+    
+    cursor: pointer;
+  }
+  .icon{
+    --tw-text-opacity: 1;
+    color: rgb(28 190 89 / var(--tw-text-opacity));
+}
+.bg{
+    width: 100px;
+    line-height: 100px;
+    background-color: bisque;
+    border-radius:100px;
+    margin-top: 50px;
+
+}
+.email-info {
+    margin-top: 65px;
+    margin-left: 20px;
+    text-align: justify;
+
+    
+}
+.phone{
+    margin-top: 65px;
+    margin-left: 20px;
+    text-align: justify;
+
+
+}
+
+.gmail, .phone-no{
+    color:rgb(99, 98, 98);
+}
+  
