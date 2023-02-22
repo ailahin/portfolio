@@ -2,12 +2,21 @@
   background-image: url(../../images/portfolibg-4.jpg);
   background-size: cover;
   margin-bottom: 100px;
+  
 }
 .row-container{
+  height: 300px;
+  border: 0;
+  box-shadow: brown 2px 2px;
+}
 
-  display: flex !important;
-  margin: 10px;
-  margin-top: 30px;
+.row-container:hover{
+  height: 300px;
+  border: 0;
+  box-shadow: rgb(137, 64, 64) 2px 2px;
+  zoom: 1.03;
+
+ 
 }
 .portfolio-text{
     color:rgb(247 80 35);
@@ -42,4 +51,20 @@
     border-radius: 20px;
     
   
+}
+.website-about{
+  color: rgb(21, 21, 153);
+  font-size: 1rem;
+}
+.project-title{
+  color:green;
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+.technologies{
+  font-weight: bolder;
+}
+.details{
+  color:rgb(96, 95, 95);
+  font-weight: bolder;
 }

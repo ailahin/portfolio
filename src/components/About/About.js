@@ -1,9 +1,10 @@
 import React from "react";
 import "./About.css";
+import {Link} from 'react-scroll'
 
 const About = () => {
   return (
-    <div className="bg-img"> 
+    <div className="bg-img" id="about"> 
     <div className="about-container ">
       <section className="edu-volu-details">
         <div className="container ">
@@ -17,7 +18,7 @@ const About = () => {
         I am an enthusiastic and driven individual with good analytical and problem-solving skills. I am passionate about learning and developing new skills, and I am interested in working in a range of technology environments. I am committed to becoming a full-stack web developer and have gained knowledge and experience in HTML, CSS, Bootstrap, JavaScript, React, version control systems such as GitHub, and basic knowledge of Python and MySQL. I am currently in the process of learning back-end development. I am seeking an internship, entry-level web development, or software development job
         </div>
 
-        <div class="container">
+        <div class="container" id="about1">
           <div className="" >
             <div class="row">
               <div class="col-6 ">
@@ -86,7 +87,7 @@ const About = () => {
 
     
       <button className='hire-me-btn' > 
-      <a className='hire-me-btn' href=""> Hire Me </a>
+      <Link className='hire-me-btn' to="contact"> Hire Me </Link>
       </button>
 
       </div>

@@ -18,7 +18,6 @@ function App() {
       <Header> </Header>
       <About> </About>
       <Portfolio> </Portfolio>
-     
       <Contact> </Contact>
       <Footer> </Footer>
 

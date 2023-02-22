@@ -1,27 +1,26 @@
 [
-    {
+  {
     "title": "A Education Website ",
-    "technologies" : " CSS, Bootstrap, JavaScript, Basic React, hooks, Virtual DOM, context API, React Router, Node.js, etc ",
+    "technologies": " CSS, Bootstrap, JavaScript, Basic React, hooks, Virtual DOM, context API, React Router, Node.js, etc ",
     "img": "https://drive.google.com/drive/u/0/folders/1-o5qyHYOguKMk3N6CP-JDAAVHCLxcUpW ",
     "website": "https://router-online-courses.netlify.app"
-    },
-    {
-    "title": "Details of Tech Compnaies",
-    "technologies" : " CSS, Bootstrap, JavaScript, Basic React, hooks, Virtual DOM, context API, Node.js, etc ",
+  },
+  {
+    "title": "Tech Companies",
+    "technologies": " CSS, Bootstrap, JavaScript, Basic React, hooks, Virtual DOM, context API, Node.js, etc ",
     "img": "https://drive.google.com/drive/u/0/folders/1-o5qyHYOguKMk3N6CP-JDAAVHCLxcUpW",
-    "website": "https://tech-companies-data.netlify.app" 
-    },
-    { "title": "Details of Tech Compnaies",
-    "technologies" : " CSS, Bootstrap, JavaScript, Basic React, hooks, Virtual DOM, context API, Node.js, etc ",
+    "website": "https://tech-companies-data.netlify.app"
+  },
+  {
+    "title": "Tech Companies",
+    "technologies": " CSS, Bootstrap, JavaScript, Basic React, hooks, Virtual DOM, context API, Node.js, etc ",
     "img": "https://drive.google.com/drive/u/0/folders/1-o5qyHYOguKMk3N6CP-JDAAVHCLxcUpW",
-    "website": "https://tech-companies-data.netlify.app" 
-    },
-    {
-        "title": "A Education Website ",
-        "technologies" : " CSS, Bootstrap, JavaScript, Basic React, hooks, Virtual DOM, context API, React Router, Node.js, etc ",
-        "img": "https://drive.google.com/drive/u/0/folders/1-o5qyHYOguKMk3N6CP-JDAAVHCLxcUpW ",
-        "website": "https://router-online-courses.netlify.app"
-    }
-    
-    
-    ]
+    "website": "https://tech-companies-data.netlify.app"
+  },
+  {
+    "title": "A Education Website ",
+    "technologies": " CSS, Bootstrap, JavaScript, Basic React, hooks, Virtual DOM, context API, React Router, Node.js, etc ",
+    "img": "https://drive.google.com/drive/u/0/folders/1-o5qyHYOguKMk3N6CP-JDAAVHCLxcUpW ",
+    "website": "https://router-online-courses.netlify.app"
+  }
+]

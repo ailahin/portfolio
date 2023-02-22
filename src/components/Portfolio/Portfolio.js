@@ -13,7 +13,7 @@ const Portfolio = () => {
   return (
 
 
-    <div className="portfolio-body">
+    <div className="portfolio-body" id="portfolio">
       <div className="portfolio-text container">
         <h1>Portfolio</h1>
       </div>
@@ -22,27 +22,30 @@ const Portfolio = () => {
         <h1>My Amazing Works</h1>
       </div>
 
-      <div className="container   ">
-        <div class="row container   ">
-          <div class="col-sm-6 mb-3 col-lg-10 mb-sm-0 d-flex mx-auto  ">
+      <div className="container d-flex   ">
+        <div class="row container  ">
+          <div  className="  row row-cols-sm-1 row-cols-md-2 row-cols-lg-3 g-4 h-50 mx-auto    ">
             {
               projects.map(project=> (
 
-                <div class="card row-container   "  >
+             <div >
+                 <div class="card  row-container  "  >
 
-              <img src={project.img} alt="" srcset="" />
-          
-              <div class="card-body">
-                <h5 class="card-title">Website About: {project.title}</h5>
-                <p class="card-text"> Technologies Covered:
-                  {project.technologies}
-                </p>
-                <a href={project.website} target='_blank' class="btn link-btn">
-                    Live Link
-                </a>
-              </div>
-            </div>
+<img src={project.img} alt="" srcset="" />
 
+<div class="card-body aline-text-start">
+  <h5 class="card-title"> <span className="website-about"> Website About: </span> <br />
+   <span className="project-title"> {project.title} </span></h5>
+  <p class="card-text"> <span className="technologies"> Technologies Covered:</span>
+   <span className="details">  {project.technologies}</span>
+  </p>
+  <a href={project.website} target='_blank' class="btn link-btn">
+      Live Link
+  </a>
+</div>
+</div>
+
+             </div>
               ))
             }
             
