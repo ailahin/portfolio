@@ -40,7 +40,7 @@ const Portfolio = () => {
    <span className="details">  {project.technologies}</span>
   </p>
   <a href={project.website} target='_blank' class="btn link-btn">
-      Live Link
+      Live Link <i class="fa-solid fa-arrow-right"></i>
   </a>
 </div>
 </div>

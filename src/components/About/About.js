@@ -10,12 +10,12 @@ const About = () => {
         <div className="container ">
 
          
-          <h1 className="title-about">About</h1>
+          <h1 className="title-about">About </h1>
 
         </div>
 
         <div className="text-special about-me col-8 mx-auto">
-        I am an enthusiastic and driven individual with good analytical and problem-solving skills. I am passionate about learning and developing new skills, and I am interested in working in a range of technology environments. I am committed to becoming a full-stack web developer and have gained knowledge and experience in HTML, CSS, Bootstrap, JavaScript, React, version control systems such as GitHub, and basic knowledge of Python and MySQL. I am currently in the process of learning back-end development. I am seeking an internship, entry-level web development, or software development job
+        I am an enthusiastic and driven individual with good analytical and problem-solving skills. I am passionate about learning and developing new skills, and I am interested in working in a range of technology environments. I am committed to becoming a full-stack web developer and have gained knowledge and experience in HTML, CSS, Bootstrap, JavaScript, React, version control systems such as GitHub, and basic knowledge of Python and MySQL. I am currently in the process of learning back-end development. I am seeking an internship, entry-level web development, or software development opportunity.
         </div>
 
         <div class="container" id="about1">

@@ -1,9 +1,10 @@
 import React from "react";
 import "./Navbar.css";
 import {Link } from 'react-scroll'
+import cv from '../../images/Aminul-Islam-Lahin.pdf'
 const Navbar = () => {
   return (
-    <div className="navbar fixed-top justify-content-around">
+    <div className="navbar fixed-top justify-content-around row-cols-sm-4 row-cols-md-2   g-4 mx-auto">
       {/* <nav class="navbar nav-pills nav-fill  bg-white navbar-expand-lg  ">
         <div class="container-fluid text-light">
           <div>
@@ -54,7 +55,11 @@ const Navbar = () => {
     <Link class="nav-link"  to='blog'  data-bs-toggle="pill" type="button">Blog</Link>
   </li>
   <li class=" position-absolute  end-0" role="presentation">
-    <button class="download-cv-btn"  data-bs-toggle=""> Download CV</button>
+    
+    <a href={cv} download>
+    <button class="download-cv-btn"  data-bs-toggle=""> <i class="fa-solid fa-download"></i> Download CV  </button>
+    </a>
+   
   </li>
   
 </ul>
