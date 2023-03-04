@@ -3,7 +3,7 @@
     width: 20px;
     height: 20px;
     border-radius: 50%;
-    background: radial-gradient(circle, #f6a103, #ec0808);
+    background: radial-gradient(circle, rgb(6, 88, 6), rgb(226, 237, 226));
     transform: translate(-50%, -50%);
     pointer-events:none;
     z-index: 9999;
